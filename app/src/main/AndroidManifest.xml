@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         >
+
+        <!--
+         <meta-data android:name="com.google.ar.core" android:value="required" />
+         -->
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".LoadingScreen">
             <intent-filter>
@@ -21,5 +25,7 @@
             </intent-filter>
         </activity>
     </application>
+
+
 
 </manifest>
